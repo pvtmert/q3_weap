@@ -7,7 +7,12 @@ SRC=weap.c
 
 all: $(TARGET)
 
+clean:
+	rm -f $(TARGET) $(OBJECT)
+
 $(TARGET): $(OBJECT)
+	$(CC) $(LDFLAGS) -o $(TARGET) $(OBJECT)
 
 $(OBJECT): $(SRC)
-	$(CC) $(CFLAGS) $(LDFLAGS) -o $(TARGET) $(SRC)
+	$(CC) $(CFLAGS) -o $(OBJECT) $(SRC)
+
