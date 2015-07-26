@@ -5,12 +5,12 @@ as you know, cod sort of 'compiles' weapon files (probably for compressing to fa
 this little console application takes filenames as program arguments and reads it then writes to new file with prefixed "fix_" on same folder as source file is with much readable content.
 
 it simply translates
-> var\val\var\val
+	var\val\var\val
 
 to
 
-> var:val
-> var:val
+	var:val
+	var:val
 
 format.
 
