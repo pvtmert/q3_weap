@@ -6,9 +6,12 @@ this little console application takes filenames as program arguments and reads i
 
 it simply translates
 > var\val\var\val
+
 to
+
 > var:val
 > var:val
+
 format.
 
 * note: first variable is not a variable, just a header 'WEAPONFILE' so it skips that, else? You will get wrong combinations
